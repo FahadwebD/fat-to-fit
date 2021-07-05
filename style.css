@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0%;
+}
+/* Start of Top*/
+h1{
+    
+    font-size: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    color: rgb(85, 81, 81);
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 15px 0px;
+}
+#t-p{
+    margin-top: 2%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 10px;
+    padding-bottom: 50px;
+}
+.t-color{
+    color: orange;
+}
+
+.top-part{
+    display: flex;
+}
+.top-description{
+    width: 50%;
+    float: left;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 7%;
+    
+}
+.order-btn{
+    font-size: 25px;
+    
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700;
+    padding: 30px 60px;
+    border-radius: 45px;
+}
+
+.top-image{
+    float: right;
+    width: 50%;
+    margin-top: 3%;
+}
+.top-image img{
+    width: 100%;
+}
+/**End of Top **/
+
+/*Start of About*/
