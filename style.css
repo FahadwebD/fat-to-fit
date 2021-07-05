@@ -110,3 +110,68 @@ h1{
     border-radius: 45px;
 }
 /*End of about section*/
+.Check{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+h2{
+    font-size: 40px;
+    font-family: monospace;
+    font-weight: 700;
+}
+.Check a{
+    text-decoration: none;
+    color: orange;
+}
+#ch-p{
+    font-size: 20px;
+    font-family:monospace;
+    margin-bottom: 10px;
+    padding-top: 0%;
+    padding-bottom: 15px;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+.check-list{
+    display: flex;
+    justify-content: center;
+    
+    border: white;
+    text-align: center;      
+}
+.check-list img{
+    height: 200px;
+    width: 200px;
+    
+}
+.run{
+    height: 400px;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px rgb(224, 83, 58);
+}
+.to-eat{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px rgb(255, 99, 71);
+}
+.not-to-eat{
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px rgb(255, 99, 71);
+}
