@@ -2,6 +2,58 @@ body{
     margin: 0;
     padding: 0%;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+header{
+    margin: 0%;
+    background-color: rgb(240, 91, 64);
+    height: 7vh;
+    width: 100%;
+    position: relative;
+    transition: all 0.2s;
+    padding-bottom: 10px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:baseline
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+a:hover{
+    color: grey;
+}
+ul{
+    list-style:  none;
+}
+li{
+    text-decoration: none;
+}
+nav ul{
+    display: flex;
+    transition: all 0.2s;
+}
+nav ul li{
+    height: 50px;
+    line-height: 43px;
+    
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    
+
+
+}
+
 /* Start of Top*/
 h1{
     
@@ -119,16 +171,14 @@ h1{
     justify-content: center space-evenly;
     align-items: center;
     margin: 10px;
+    
 }
 h2{
     font-size: 40px;
     font-family: monospace;
     font-weight: 700;
 }
-.Check a{
-    text-decoration: none;
-    color: orange;
-}
+
 #ch-p{
     font-size: 20px;
     font-family:monospace;
@@ -159,7 +209,7 @@ h3{
     margin-right: 5%;
     padding: 50px;
     border-radius: 5px;
-    box-shadow: 10px 10px 40px rgb(224, 83, 58);
+    box-shadow: 10px 10px 40px rgb(224, 171, 58);
 }
 .to-eat{
     width: 30%;
@@ -167,7 +217,7 @@ h3{
     margin-right: 5%;
     padding: 50px;
     border-radius: 5px;
-    box-shadow: 10px 10px 40px rgb(255, 99, 71);
+    box-shadow: 10px 10px 40px rgb(236, 72, 43);
 }
 .not-to-eat{
     width: 30%;
@@ -175,7 +225,7 @@ h3{
     margin-right: 5%;
     padding: 50px;
     border-radius: 5px;
-    box-shadow: 10px 10px 40px rgb(255, 99, 71);
+    box-shadow: 10px 10px 40px rgb(255, 71, 71);
 }
 /*extra secteion end*/
 
@@ -260,3 +310,4 @@ h3{
     color: grey;
 
 }
+/*end of the recipies*/
