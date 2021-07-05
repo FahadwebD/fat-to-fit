@@ -15,9 +15,12 @@ h1{
 #t-p{
     margin-top: 2%;
     font-size: 20px;
+    font-weight: 500;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(85, 81, 81);
     margin-bottom: 10px;
     padding-bottom: 50px;
+    line-height: 30px;
 }
 .t-color{
     color: orange;
@@ -56,3 +59,54 @@ h1{
 /**End of Top **/
 
 /*Start of About*/
+.about{
+    display: flex;
+    flex-direction: row-reverse;
+    background-image: url(images/7.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+}
+.about-description{
+    
+    width: 50%;
+    position: relative;
+    text-align:start;
+    margin-top: 10%;
+    
+
+}
+.about-image{
+    
+    width: 50%;
+}
+.about-image img{
+    height: 80vh;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+#a-d{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:rgb(85, 81, 81) ;
+}
+#a-p{
+    margin-right: 16%;
+    margin-top: 50px;
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: 150px;
+    line-height: 30px;
+}
+.about-btn{
+    
+    font-size: 25px;
+    
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    font-weight: 700;
+    padding: 30px 60px;
+    border-radius: 45px;
+}
+/*End of about section*/
