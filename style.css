@@ -311,3 +311,56 @@ h3{
 
 }
 /*end of the recipies*/
+/*start of subscriber part*/
+
+
+.subs{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-top: 0%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+  padding: 0%;
+    box-shadow:  10px 10px 40px rgb(161, 157, 157)
+    
+}
+.subscriber1{
+    
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px;
+    
+
+}
+.subscriber2{
+    
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px;
+    
+
+}
+.subscriber3{
+    
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 50px;
+}
+h4{
+    font-family: monospace;
+    font-size: 70px;
+    
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+
+}
+h5{
+    padding-top: 0;
+    margin-top: 0%;
+}
